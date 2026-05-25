@@ -34,3 +34,9 @@
 
 + **git diff**
 >Mostra a diferença entre dois estados, o ultimo commitado (HEAD) e o que foi alterado mas não commitado. Se passar dois hashs pode-se ver a diferença entre os dois commits, ex: git diff xxxxxxxx..yyyyyyy
+
++ **git push {local}**
+>Manda as informações alteradas para um local específico sem precisar de sync changes
+
++ **git pull**
+>Recebe as ultimas alerações do repósitório online, ultilizando merge ele mescla as alterações do repositório com as informações locais, sem o uso do merge ele substitui 100% do código

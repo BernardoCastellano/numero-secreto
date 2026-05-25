@@ -8,6 +8,12 @@
 + **git status**
 >Mostra em qual brench o usuário está atualmente e se tem algo em haver para commitar
 
++ **git add .**
+>Adiciona todos os arquivos alterados não commitados a um estado de pré-commit
+
++ **git commit -m "{mensagem}"**
+>Commita os arquivos em estado de pré-commit passando uma mensagem dentro das aspas
+
 + **git log**
 >Mostra todos os commits, a mensagem, a data e quem comitou;
 
@@ -26,3 +32,5 @@
 + **git show {hash do commit}**
 >Exibe as informações commit especfico passando o hash unico dele, se digitar somente git show sem o hash ele mostra o commit HEAD, ou seja, ele mostra somente o ultimo commit enviado
 
++ **git diff**
+>Mostra a diferença entre dois estados, o ultimo commitado (HEAD) e o que foi alterado mas não commitado. Se passar dois hashs pode-se ver a diferença entre os dois commits, ex: git diff xxxxxxxx..yyyyyyy

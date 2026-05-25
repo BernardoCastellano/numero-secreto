@@ -12,7 +12,7 @@
 >Adiciona todos os arquivos alterados não commitados a um estado de pré-commit
 
 + **git commit -m "{mensagem}"**
->Commita os arquivos em estado de pré-commit passando uma mensagem dentro das aspas
+>Commita os arquivos em estado de pré-commit passando uma mensagem dentro das aspas, os commits sempre passam para a brench master/main quando não especificada a branch
 
 + **git log**
 >Mostra todos os commits, a mensagem, a data e quem comitou;
@@ -39,4 +39,19 @@
 >Manda as informações alteradas para um local específico sem precisar de sync changes
 
 + **git pull**
->Recebe as ultimas alerações do repósitório online, ultilizando merge ele mescla as alterações do repositório com as informações locais, sem o uso do merge ele substitui 100% do código
+>Recebe as ultimas alerações do repósitório online, ultilizando merge ele mescla as alterações do repositório com as informações locais, sem o uso do merge ele substitui 100% do código 
+
++ **git branch**
+>Mostra os 'galhos' do repositório, as ramificações
+
++ **git branch {nome}**
+>Adiciona uma branch nova passando um nome para ela
+
++ **git branch -d {nome}**
+>Remove uma branch específica passando o nome dela, não se pode remover a branch onde você está
+
++ **git checkout {branch} ou git switch {branch}**
+>Conecta o usuário a branch selecionada, torna essa a branch utilizada por ele
+
++ **git checkout -b {branch} ou git switch -c {branch}**
+>Cria e conecta o usuário a branch criada

@@ -1,7 +1,5 @@
 # Comandos Git Terminal:
 
-## Tipos de Git Log
-
 + **git log --help**
 >Exibe um manual dos comandos e subcomandos, se digitar um comando e --help ele mostra como usa-lo, ex: git show --help mostra como usar esse comando
 
@@ -61,3 +59,21 @@
 
 + **git rebase {branch}**
 >Reescreve a historia dos commits, pega todos os commits da branch selecionada e adiciona 1 a 1 na branch atual, deixa eles na frete dos commits da branch atual 
+
++ **git stash**
+>Guarda o que não foi commitado ou stashado em um estoque, adiciona as modificações em pilha 
+
++ **git stash apply {id}**
+>Aplica somente a stash com o id inserido
+
++ **git stash pop**
+>Aplica o que estiver no estoque, sempre pega a ultima stash
+
++ **git stash list**
+>Lista tudo o que estiver em estoque
+
++ **git stash clear**
+>Limpa o estoque 
+
++ **git stash push -m "{mensagem}"**
+>Guarda algo no stash com uma mensagemf

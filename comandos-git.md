@@ -1,6 +1,6 @@
-#**Comandos Git Terminal:**
+# **Comandos Git Terminal:**
 
-##Tipos de Git Log
+## Tipos de Git Log
 + git log
 >Mostra todos os commits, a mensagem, a data e quem comitou;
 

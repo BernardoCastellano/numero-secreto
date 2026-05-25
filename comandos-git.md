@@ -98,3 +98,9 @@
 
 + **git tag -v {nome}**
 >Exibe as informações ocultas da tag selecionada, como o tipo da tag, o nome, o autor, a data. Só funciona com anotated tags, ou seja, tags com descrição
+
++ **git cherry-pick {hash}**
+>Pega o commit com esse hash e aplica na branch atual 
+
++ **git blame {arquivo}**
+>Mostra quem alterou cada uma das linhas do arquivo, quando a linha começa com "^" quer dizer que aquela linha não foi alterada desde o primeiro commit

@@ -58,3 +58,6 @@
 
 + **git merge {branch}**
 >Mescla a brench atual com a branch selecionada, alterando os arquivos mexidos na branch selecionada
+
++ **git rebase {branch}**
+>Reescreve a historia dos commits, pega todos os commits da branch selecionada e adiciona 1 a 1 na branch atual, deixa eles na frete dos commits da branch atual 

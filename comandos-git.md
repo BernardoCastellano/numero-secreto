@@ -76,4 +76,25 @@
 >Limpa o estoque 
 
 + **git stash push -m "{mensagem}"**
->Guarda algo no stash com uma mensagemf
+>Guarda algo no stash com uma mensagem
+
++ **git restore {arquivo}**
+>Restora o arquivo para o ultimo commit da branch, se não for inserido o arquivo restora o arquivo atual para o ultimo commitado
+
++ **git restore -staged**
+>Restora o que está dentro da stage area, tudo o que foi adicionado com git add {arquivo}
+
++ **git restore -source={hash} {arquivo}**
+>Restora o que não foi commitado para o commit de hash selecionado, se não houver arquivo selecionado ele volta tudo o que foi alterado
+
++ **git tag {nome} {nome commit}**
+>Cria uma tag, um checkpoint, no commit mais recente, salva o estado da aplicação naquele momento, se o nome do comit não for informado a tag será adicionada na HEAD, se for informada será no commit selecionado
+
++ **git tag -d {nome} {nome commit}**
+>Deleta a tag selecionada, não tem muito o que explicar
+
++ **git tag {nome} -m "{mensagem}" {nome commit}**
+>Cria uma tag com descrição e informações extras por tras dos panos
+
++ **git tag -v {nome}**
+>Exibe as informações ocultas da tag selecionada, como o tipo da tag, o nome, o autor, a data. Só funciona com anotated tags, ou seja, tags com descrição

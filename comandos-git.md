@@ -55,3 +55,6 @@
 
 + **git checkout -b {branch} ou git switch -c {branch}**
 >Cria e conecta o usuário a branch criada
+
++ **git merge {branch}**
+>Mescla a brench atual com a branch selecionada, alterando os arquivos mexidos na branch selecionada
